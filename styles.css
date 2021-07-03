@@ -1,0 +1,35 @@
+h1{
+    color: red;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.button-center{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    border: 1px solid black;
+    width: 80vmin;
+    height: 80vmin;
+    margin: auto;
+}
+
+.board{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+.cell{
+    border: 1px solid black;
+    background-color: pink;
+}
